@@ -35,11 +35,26 @@
       <menuContribution
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
-               label="Sample Menu"
+               label="Discrepancy Finder"
                mnemonic="M"
                id="org.plugin.hello.menus.sampleMenu">
             <command
-                  commandId="org.plugin.hello.commands.sampleCommand"
+                  commandId="Platform Upgrade"
+                  mnemonic="S"
+                  id="org.plugin.hello.menus.sampleCommand">
+            </command>
+            <command
+                  commandId="Language Upgrade"
+                  mnemonic="S"
+                  id="org.plugin.hello.menus.sampleCommand">
+            </command>
+            <command
+                  commandId=".NET Upgrade"
+                  mnemonic="S"
+                  id="org.plugin.hello.menus.sampleCommand">
+            </command>
+            <command
+                  commandId="Framework Upgrade"
                   mnemonic="S"
                   id="org.plugin.hello.menus.sampleCommand">
             </command>
@@ -66,5 +81,4 @@
             name="custom">
       </product>
    </extension>
-
 </plugin>
